@@ -1,0 +1,74 @@
+/* Style the whole page */
+
+body {
+
+    font-family: Arial, sans-serif;
+     /* Limit the maximum width of the content */
+    max-width: 800px;
+      /* Center the page horizontally */
+    margin: 0 auto;
+        /* Add space inside the page */
+    padding: 20px;
+}
+
+h1 {
+    color: #616cff; /* Change the text color */
+    font-size: 38px; /* Set the text size */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+
+p {
+    font-size: 20px; /* Set the text size */
+    line-height: 1.6; /* Add space between lines of text */
+    margin-bottom: 20px; /* Add space below each paragraph */
+}
+
+img {
+    max-width: 100%; /* Prevent images from becoming wider than their container */
+    border-radius: 10px; /* Round the corners of images */
+}
+   
+a {
+    color: #616cff; /* Change the link color */
+    text-decoration: none; /* Remove the underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+  
+
+
+
+
+
+/* Style the main heading */
+
+    /* Change the text color */
+
+
+/* Style all paragraphs */
+
+    /* Set the text size */
+
+
+    /* Add space between lines of text */
+
+
+/* Style all images */
+
+    /* Prevent images from becoming wider than their container */
+
+
+    /* Round the corners of images */
+
+/* Style all links */
+
+    /* Change the link color */
+
+
+/* Style links when the mouse is over them */
+
+    /* Remove the underline */
