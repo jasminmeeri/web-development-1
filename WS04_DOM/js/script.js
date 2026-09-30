@@ -25,6 +25,39 @@ changeTextButton.addEventListener("click", function () {
     animalText.textContent = "Tigers come in different color variations!";
 });
 
+
+// Task 2
+
+const animalContent = document.querySelector("#animalContent");
+const hideAnimalButton = document.querySelector("#hideAnimalButton");
+const showAnimalButton = document.querySelector("#showAnimalButton");
+
+const dayHeading = document.createElement("h3");
+const dayParagraph = document.createElement("p");
+const dayImage = document.createElement("img");
+
+// content, classes, and attributes
+dayHeading.textContent = "Animal of the Day";
+dayHeading.classList.add("animal-heading");
+
+dayParagraph.textContent = "Red pandas look adorable when they stand on their back feet!";
+
+dayImage.src = "images/redpanda.png"; 
+dayImage.alt = "Red Panda";
+
+// append()
+animalContent.append(dayHeading, dayParagraph, dayImage);
+
+// Add event listeners for the hide and show buttons
+hideAnimalButton.addEventListener("click", function () {
+    animalContent.style.display = "none";
+});
+
+showAnimalButton.addEventListener("click", function () {
+    animalContent.style.display = "block";
+});
+
+
 // Animal table script
 
 const animalbutton = document.querySelector("#animalButton");
